@@ -1,4 +1,3 @@
-import './App.scss';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
 import MenuContent from './components/MenuContent/MenuContent';
@@ -7,7 +6,7 @@ import MenuScreen from './screens/MenuScreen/MenuScreen';
 
 function App() {
 	return (
-		<div id="burger" className="app-continer">
+		<div id="burger">
 			<MainScreen />
 			<MenuScreen>
 				<Header />

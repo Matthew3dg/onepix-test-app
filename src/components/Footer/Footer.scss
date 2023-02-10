@@ -1,19 +1,36 @@
 .footer {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	flex-direction: column;
 	width: 100%;
 	padding: 0 80px 40px 80px;
-	position: relative;
-	&__elem {
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: nowrap;
+		position: relative;
+		@media (max-width: 1020px) {
+			flex-direction: row-reverse;
+		}
+	}
+	&__center-small {
+		display: none;
+		@media (max-width: 1020px) {
+			display: flex;
+			width: 100%;
+			margin-top: 20px;
+			color: #bcbcbc;
+		}
 	}
 	&__center {
 		color: #bcbcbc;
 		position: absolute;
 		right: 50%;
 		transform: translateX(50%);
+		@media (max-width: 1020px) {
+			display: none;
+		}
 	}
-	@media (max-width: 320px) {
+	@media (max-width: 400px) {
 		padding: 0 20px 20px 20px;
 	}
 }

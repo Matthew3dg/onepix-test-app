@@ -1,6 +1,7 @@
 @import-normalize; /* bring in normalize.css styles */
 // Подключение обнуляющих стилей
 @import 'nullstyle.scss';
+// Подключение шрифта
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 
 html {
@@ -11,7 +12,6 @@ body {
 	font-family: 'Montserrat';
 	font-style: normal;
 	font-weight: 400;
-	// font-size: 16px;
 	font-size: calc(4px + 2vmin);
 	line-height: 1.1;
 	text-transform: uppercase;
