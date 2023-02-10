@@ -1,4 +1,16 @@
-# Getting Started with Create React App
+# Тестовое задание для onepix с использованием scss и БЭМ
+
+### Структура проекта:
+-components - папка с переиспользуемыми компонентами (Footer, Header)
+
+-screens - папка с экранами приложения
+
+Каждая папка с компонентом содержит файл jsx и соответствующий scss. Кроме того есть index.scss, где объявляются глобальные стили и подкоючаются утилиты и "обнуляющие" стили.
+
+## Demo
+https://matthew3dg.github.io/onepix-test-app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
