@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/onepix-test-app/static/css/main.83ae4562.css",
+    "main.js": "/onepix-test-app/static/js/main.7de7ff03.js",
+    "static/media/main-bg.jpg": "/onepix-test-app/static/media/main-bg.92ee50b9c0c5d7b94fb3.jpg",
+    "static/media/logo.svg": "/onepix-test-app/static/media/logo.4a4e93fd07b7ceeeb6c9d548b76f7c26.svg",
+    "index.html": "/onepix-test-app/index.html",
+    "static/media/burger.svg": "/onepix-test-app/static/media/burger.9eb5b290cf9dd50e71db5f11aad71940.svg",
+    "static/media/cross.svg": "/onepix-test-app/static/media/cross.d8381bdfc06e1a06f05e9381104c773f.svg",
+    "static/media/divider.svg": "/onepix-test-app/static/media/divider.c06190d42ce7425d45fd7b8774ed438c.svg",
+    "main.83ae4562.css.map": "/onepix-test-app/static/css/main.83ae4562.css.map",
+    "main.7de7ff03.js.map": "/onepix-test-app/static/js/main.7de7ff03.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ae4562.css",
+    "static/js/main.7de7ff03.js"
+  ]
+}
