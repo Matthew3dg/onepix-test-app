@@ -1,6 +1,6 @@
 # Тестовое задание для onepix с использованием scss и БЭМ
 
-##Demo
+## Demo
 https://matthew3dg.github.io/onepix-test-app/
 
 ## Getting Started with Create React App
