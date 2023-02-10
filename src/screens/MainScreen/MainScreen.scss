@@ -22,12 +22,21 @@
 	// .main-header__menu
 	&__menu {
 	}
+	@media (max-width: 320px) {
+		padding: 20px 20px 0 0;
+	}
 }
 .menu-icon {
 	height: 50px;
 	width: 50px;
 }
 .logo {
+	img {
+		@media (max-width: 320px) {
+			height: 60px;
+			width: 200px;
+		}
+	}
 }
 .main-footer {
 	display: flex;
