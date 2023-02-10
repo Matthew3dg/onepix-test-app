@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+# Тестовое задание для onepix с использованием scss и БЭМ
+
+##Demo
+https://matthew3dg.github.io/onepix-test-app/
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
