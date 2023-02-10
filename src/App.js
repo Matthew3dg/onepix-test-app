@@ -1,21 +1,19 @@
 import './App.scss';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import MenuContent from './components/MenuContent/MenuContent';
+import MainScreen from './screens/MainScreen/MainScreen';
+import MenuScreen from './screens/MenuScreen/MenuScreen';
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<p>
-					Edit <code>src/App.js</code> and save to reload.
-				</p>
-				<a
-					className="App-link"
-					href="https://reactjs.org"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					Learn React
-				</a>
-			</header>
+		<div id="burger" className="app-continer">
+			<MainScreen />
+			<MenuScreen>
+				<Header />
+				<MenuContent />
+				<Footer />
+			</MenuScreen>
 		</div>
 	);
 }

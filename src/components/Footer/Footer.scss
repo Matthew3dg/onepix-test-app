@@ -1,0 +1,16 @@
+.footer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding: 0 80px 40px 80px;
+	position: relative;
+	&__elem {
+	}
+	&__center {
+		color: #bcbcbc;
+		position: absolute;
+		right: 50%;
+		transform: translateX(50%);
+	}
+}

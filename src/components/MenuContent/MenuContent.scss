@@ -1,0 +1,14 @@
+.menu-content {
+	font-weight: 300;
+	font-size: calc(20px + 2vmin);
+	text-align: center;
+	letter-spacing: 0.3vmin;
+	color: #bcbcbc;
+	a {
+		display: block;
+		margin-bottom: 36px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
